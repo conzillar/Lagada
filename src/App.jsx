@@ -6,6 +6,7 @@ import Home from './Component/Home'
 import Nextpage from './Component/Nextpage'
 import Sec from './Component/Sec'
 import Categories from './Component/Categories'
+import Footer from './Component/Footer'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Nextpage/>
       <Sec/>
       <Categories/>
+      <Footer/>
 
     </>
   )

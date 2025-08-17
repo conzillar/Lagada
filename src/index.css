@@ -1,18 +1,57 @@
 @import "tailwindcss";
 
 
-@theme{
-  --font-syne:"Syne", sans-serif;
+@theme {
+  --font-syne: "Syne", sans-serif;
   --font-Cormorant: "Cormorant Garamond", serif;
-  --font-roboto:"Poppins", sans-serif;
+  --font-roboto: "Poppins", sans-serif;
 }
-.laga{
-  background:  url(./assets/istockphoto-2167711128-612x612.jpg);
+
+.laga {
+  z-index: 0;
+  height: 70vh;
+}
+
+.laga::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(./assets/lips.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:90vh;
+  transform: scaleX(-1);
+  z-index: -1;
+  overflow-x: hidden;
+
 }
-.weck{
+
+.foot {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(./assets/foot.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 40vh; */
+}
+
+/* .lag{
   background: url(./assets/zc-stock-images-02.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
 }
+.gad{
+  background: url(./assets/zc-stock-images-02.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.gada{
+  background: url(./assets/zc-stock-images-02.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+} */

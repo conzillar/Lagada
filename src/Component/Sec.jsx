@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function Sec() {
     return (
-        <div className='bg-amber-50 px-[60px] py-[70px]'>
-            <h1 className='text-[50px] text-amber-800 font-syne mb-[2rem]'>Essential care for your skin</h1>
-            <div className='flex gap-[1rem]'>
-                <div className='w-full'>
-                    <img src="weck.png" alt="" />
+        <div className='bg-amber-50 px-[30px] py-[30px] md:px-[60px] md:py-[10px]'>
+            <h1 className='text-[30px] md:text-[50px] text-amber-800 font-syne mb-[1rem]'>Essential care for your skin</h1>
+            <div className=' md:flex gap-[1rem]'>
+                <div className='md:w-full hover:scale-105 transition duration-300 mb-[3rem]'>
+                    <img src="weck.png" alt="" className='w-[100%]' />
                     <div className='bg-[#f8efef] px-[20px] py-[15px] shadow-2xl'>
                         <h1 className='font-syne text-[20px] text-amber-800 font-[500]'>Lagada Skin-Serum</h1>
                         <p className='text-[15px] font-[400] text-amber-800 font-syne'>Sun protection, UV exposure/damage</p>
@@ -16,8 +16,8 @@ export default function Sec() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full'>
-                    <img src="weck1.png" alt="" />
+                <div className='w-full hover:scale-105 transition duration-300 mb-[3rem]'>
+                    <img src="weck1.png" alt="" className='w-[100%]'  />
                     <div className='bg-[#f8efef] px-[20px] py-[15px] shadow-2xl'>
                         <h1 className='font-syne text-[20px] text-amber-800 font-[500]'>Lagada Skin-Serum</h1>
                         <p className='text-[15px] font-[400] text-amber-800 font-syne'>Sun protection, UV exposure/damage</p>
@@ -27,8 +27,8 @@ export default function Sec() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full'>
-                    <img src="weck2.png" alt="" />
+                <div className='w-full hover:scale-105 transition duration-300 mb-[3rem]'>
+                    <img src="weck2.png" alt="" className='w-[100%]'  />
                     <div className='bg-[#f8efef] px-[20px] py-[15px] shadow-2xl'>
                         <h1 className='font-syne text-[20px] text-amber-800 font-[500]'>Lagada Skin-Serum</h1>
                         <p className='text-[15px] font-[400] text-amber-800 font-syne'>Sun protection, UV exposure/damage</p>
@@ -38,8 +38,8 @@ export default function Sec() {
                         </div>
                     </div>
                 </div>
-                <div className='w-full'>
-                    <img src="weck1.png" alt="" />
+                <div className='w-full hover:scale-105 transition duration-300 mb-[3rem]'>
+                    <img src="weck1.png" alt="" className='w-[100%]'  />
                     <div className='bg-[#f8efef] px-[20px] py-[15px] shadow-2xl'>
                         <h1 className='font-syne text-[20px] text-amber-800 font-[500]'>Lagada Skin-Serum</h1>
                         <p className='text-[15px] font-[400] text-amber-800 font-syne'>Sun protection, UV exposure/damage</p>
