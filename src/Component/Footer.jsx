@@ -7,7 +7,7 @@ export default function Footer() {
         <div className='md:w-[50%] md:mt-[-3rem] '>
           <h1 className='text-[20px] text-white/100 font-[600] font-syne'>Lagada</h1>
           <p className='text-white/100 text-[14.5px] w-[74%] md:text-[17px] font-[400]'>Our innovative skincare leverages cutting-edge green science and premium ingredients to enhance your natural aura</p>
-          <p className='text-whit'>&copy; <span className='text-white text-[15px] font-[500] font-syne'>2025 Lagada. All Right Reserved.</span></p>
+          <p className='text-white'>&copy; <span className='text-white text-[15px] font-[500] font-syne'>2025 Lagada. All Right Reserved.</span></p>
         </div>
         <div className=' flex flex-col ml-[-10rem] mt-[-2rem]'>
           <div>
